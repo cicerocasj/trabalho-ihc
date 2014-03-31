@@ -1,0 +1,141 @@
+body{
+    background: #cbcbcb; /* Old browsers */
+}
+body > section > header{
+    position: relative;
+    top: 5px;
+}
+body > section > header > nav{
+    margin: 0 5px;
+    background: #333333 !important;
+    color: #ffffff !important;
+}
+body > section > header > nav > ul > li > button{
+    border-radius: 5px !important;
+}
+body > section > header > nav > ul > li button{
+    background: #333333 !important;
+}
+
+body > section{
+    margin: 0 5%;
+    background: #e2e2e2;
+    box-shadow: 0 0 10px #aaaaaa;
+}
+body > section > header{
+
+}
+body > section > div[class=row]{
+    min-height: 700px !important;
+}
+div[class=row] div.notice:hover{
+    background: #f5f5f5;
+}
+div[class=row] div.notice h4 a:hover{
+    color: #464646;
+    text-decoration: none;
+}
+body > section > aside{
+    width: 15% !important;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px 5px #000000;
+    border-radius: 10px;
+}
+body > section > section > div{
+    margin: 20px;
+    background: #000000;
+}
+body > section > section > article{
+    box-shadow: 1px 1px 5px #000000;
+    width: 45% !important;
+    margin: 20px;
+    padding: 20px;
+}
+body > section >footer{
+    display: block;
+    clear: both;
+}
+
+
+
+
+/* color person */
+.white{
+    box-shadow: 1px 1px 5px #000000;
+}
+.gray{
+    box-shadow: 1px 1px 5px #000000;
+}
+aside > nav span{
+    padding: .25em 1em;
+    height: 21px;
+}
+section > header > nav *{
+    color: #ffffff !important;
+}
+body > section > div > aside > span{
+    font-size: 1.5em;
+}
+article div[class=row] p{
+    text-align: justify;
+}
+article div[class=row] p > img{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+article div[class=row] > div > div{
+    float: left;
+}
+.banner{
+    height: 200px;
+    width: 100%;
+}
+.banner img{
+    height: 177px;
+    width: 100%;
+}
+.banner-center{
+    position: relative;
+    left: 25%;
+    max-width: 370px;
+}
+footer .github a{
+    text-decoration: none;
+}
+footer .github a:before{
+    content: '' !important;
+}
+@media (max-width: 767px) and (min-width: 481px) {
+    .banner-center{
+        position: relative !important;
+        left: 20% !important;
+        max-width: 370px;
+    }
+}
+@media (max-width: 1700px) and (min-width: 481px) {
+    .nav li li{
+        width: 200px;
+    }
+}
+@media (min-width: 481px) and (max-width: 700px){
+    .banner-center{
+        position: relative !important;
+        left: 5% !important;
+        max-width: 370px;
+    }
+}
+.contato img{
+    width: 200px;
+    height: 190px;
+    float: none !important;
+    position: relative;
+    left: 25px;
+    border-radius: 100px;
+
+}
+.contato div div:hover{
+    background: white !important;
+}

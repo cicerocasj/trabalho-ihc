@@ -1,0 +1,44 @@
+body{
+    background: red !important;
+}
+body  nav, nav ul{
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+nav ul li ul{
+    background-color: red !important;
+}
+body > aside{
+    padding-left: 5px;
+    color: #ffffff;
+}
+body > aside a:hover{
+    cursor: pointer;
+    color: #8c740b;
+}
+body > aside a{
+    color: #ffffff;
+}
+body > aside > ul > li{
+    padding-left: 5px;
+}
+body > section{
+    min-height: 500px !important;
+    background: #ffffff;
+    padding: 15px;
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px;
+    box-shadow: 0 0 10px #9e7f0d;
+}
+body > section > article{
+    padding: 10px;
+    box-shadow: 0 0 3px #aaaaaa;
+    margin-right: 0.5%;
+    width: 49% !important;
+}
+body > footer{
+    color: #ffffff;
+}
+.clearFloat{
+    clear: both;
+}
