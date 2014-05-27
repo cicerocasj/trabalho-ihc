@@ -1,0 +1,59 @@
+.my-breakpoint p img{
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+}
+.my-breakpoint p{
+    text-align: justify;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    color: white;
+}
+.my-breakpoint .ui-block-a,
+.my-breakpoint .ui-block-b{
+    box-shadow: 1px 1px 5px #000000 !important;
+    -moz-box-shadow: 1px 1px 5px #000000 !important;
+    background: #ffffff;
+    padding: 7px;
+}
+@media all and (min-width: 30.1em) {
+
+    .my-breakpoint .ui-block-a{
+        margin: 1% 1% 1% 10% !important;
+        width: 39% !important;
+        box-shadow: 1px 1px 5px #000000 !important;
+        -moz-box-shadow: 1px 1px 5px #000000 !important;
+    }
+    .my-breakpoint .ui-block-b{
+        margin: 1% 10% 1% 1% !important;
+        width: 39% !important;
+        box-shadow: 1px 1px 5px #000000 !important;
+        -moz-box-shadow: 1px 1px 5px #000000 !important;
+    }
+}
+@media all and (max-width: 30em) {
+    .my-breakpoint .ui-block-a,
+    .my-breakpoint .ui-block-b{
+        width: 100%;
+        float:none;
+        margin-left: 0;
+        box-shadow: 1px 1px 5px #000000 !important;
+        -moz-box-shadow: 1px 1px 5px #000000 !important;
+    }
+}
+/*this block should go in the styles.css file*/
+.ui-panel-inner {
+    padding:0px; /*make the buttons flush edge to edge*/
+}
+.ui-controlgroup {
+    margin:0; /*make the buttons flush to the top*/
+}
+#header {
+    height:54px;
+}
+#bars-button {
+    margin:7px;
+}
