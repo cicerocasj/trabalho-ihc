@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <title>Computer World</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="jquery.mobile-1.3.1.min.css" />
+    <link rel="stylesheet" href="themes/my-custom-theme.min.css"/>
+    <link rel="stylesheet" href="themes/jquery.mobile.structure-1.3.2.min.css" />
     <link rel="stylesheet" href="../css/styles.css" />
-    <!--<link rel="stylesheet" href="mytheme.min.css" />
-    <link rel="stylesheet" href="jquery.mobile.icons.min.css" />-->
 </head>
 <body>
 
@@ -16,11 +15,11 @@
     <div data-role="panel" id="navpanel-left" data-theme="c"
          data-display="overlay" data-position="left">
         <div data-role="controlgroup" data-corners="false">
-            <a href="#" data-role="button">Evolu��o dos acidentes de tr�nsito 1980/2011</a>
-            <a href="#" data-role="button">Evolu��o por categoria de acidente</a>
-            <a href="#" data-role="button">Frota veicular e mortalidade no tr�nsito</a>
-            <a href="#" data-role="button">Interna��es hospitalares por acidentes de tr�nsito</a>
-            <a href="#" data-role="button">Mortalidade no tr�nsito das capitais</a>
+            <a href="#" data-role="button">Evolução dos acidentes de trânsito 1980/2011</a>
+            <a href="#" data-role="button">Evolução por categoria de acidente</a>
+            <a href="#" data-role="button">Frota veicular e mortalidade no trânsito</a>
+            <a href="#" data-role="button">Internações hospitalares por acidentes de trânsito</a>
+            <a href="#" data-role="button">Mortalidade no trânsito das capitais</a>
         </div>
     </div>
 
