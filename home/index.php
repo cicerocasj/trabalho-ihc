@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="jquery.mobile-1.3.1.min.css" />
     <link rel="stylesheet" href="../css/styles.css" />
-    <!--<link rel="stylesheet" href="mytheme.min.css" />
-    <link rel="stylesheet" href="jquery.mobile.icons.min.css" />-->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -91,8 +90,8 @@
 
     <footer data-role="footer">
         <div class="map-site">
-            <h5>Mapa do site</h5>
             <ul>
+                <li><h4>Mapa do site</h4></li>
                 <li>
                     <a href="../home" title="Home">Home</a>
                 </li>
@@ -116,6 +115,12 @@
                 </li>
             </ul>
         </div>
+        <div class="social-midia">
+            <a href="https://github.com/cicerocasj/trabalho-ihc"><i class="fa fa-github fa-4x"></i></a>
+            <a href="https://www.facebook.com/pages/HTML5/412012098868673"><i class="fa fa-facebook-square fa-4x"></i></a>
+            <a href="https://twitter.com/giulianobertoti"><i class="fa fa-twitter-square fa-4x"></i></a>
+            <a href="mailto:secretaria.sjc@fatec.sp.gov.br"><i class="fa fa-envelope-o fa-4x"></i></a>
+        </div>
         <div class="copy">
             <h5>Grupo Cícero | Raphael | Rodrigo</h5>
             <p>&copy 2014 Todos os direitos reservados.</p>
@@ -123,11 +128,9 @@
     </footer>
 
 </div>
-
 <!-- Jquery Mobile -->
 <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="jquery.mobile-1.3.1.min.js"></script>
 <script type="text/javascript" src="script-mobile.js"></script>
-
 </body>
 </html>

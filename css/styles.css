@@ -33,6 +33,17 @@ footer ul li{
         box-shadow: 1px 1px 5px #000000 !important;
         -moz-box-shadow: 1px 1px 5px #000000 !important;
     }
+    footer .map-site{
+        margin: 1% 1% 1% 10% !important;
+        width: 38% !important;
+    }
+    footer .social-midia{
+        margin: 1% 10% 1% 1% !important;
+        width: 38% !important;
+        position: relative;
+        bottom: 50px;
+        left: 5%;
+    }
 }
 @media all and (max-width: 30em) {
     .my-breakpoint .ui-block-a,
@@ -42,6 +53,16 @@ footer ul li{
         margin-left: 0;
         box-shadow: 1px 1px 5px #000000 !important;
         -moz-box-shadow: 1px 1px 5px #000000 !important;
+    }
+    footer .map-site,
+    footer .social-midia{
+        width: 100%;
+        float:none;
+        margin-left: 0;
+    }
+    footer .social-midia{
+        position: relative;
+        left: 10%;
     }
 }
 /*this block should go in the styles.css file*/
@@ -56,4 +77,37 @@ footer ul li{
 }
 #bars-button {
     margin:7px;
+}
+.copy{
+    text-align: center;
+}
+.copy h4, .copy p{
+    margin: 5px;
+}
+.map-site{
+    display: inline-block;
+}
+.map-site a{
+    color: #6874CA !important;
+    text-decoration: none;
+}
+.map-site a:hover{
+    color: #8d98ff !important;
+    text-decoration: underline;
+}
+.social-midia{
+    display: inline;
+}
+
+/*cores titulo com link*/
+.ui-content h4 a{
+    color: #6874CA !important;
+    text-decoration: none;
+}
+.ui-content h4 a:hover{
+    color: #8d98ff !important;
+    text-decoration: underline;
+}
+footer i{
+    margin-left: 10px;
 }
