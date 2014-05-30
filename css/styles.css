@@ -20,6 +20,12 @@ footer ul li{
     padding: 7px;
 }
 @media all and (min-width: 30.1em) {
+    .menu-mobile{
+        display: none !important;
+    }
+    .menu-tablet{
+        display: block
+    }
 
     .my-breakpoint .ui-block-a{
         margin: 1% 1% 1% 10% !important;
@@ -46,6 +52,10 @@ footer ul li{
     }
 }
 @media all and (max-width: 30em) {
+    .menu-mobile{display: block}
+    .menu-tablet{
+        display: none
+    }
     .my-breakpoint .ui-block-a,
     .my-breakpoint .ui-block-b{
         width: 100%;
@@ -110,4 +120,94 @@ footer ul li{
 }
 footer i{
     margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#header{
+    overflow: visible; /* Let menu content overflow outside the header */
+}
+#header ul { /* Menu Name */
+    margin-top: 1em;
+}
+#header .ui-btn-corner-all {
+    /* border-radius: 0; /* Make the menu button squarish */
+}
+#header ul ul { /* Menu Item List */
+    position: absolute; /* Position absolutely */
+    display: none; /* Hide */
+    z-index:500; /* Ensure visibility over other elements on page */
+    margin-top: 0px; /* Bring menu closer to button; not needed on mobile */
+}
+#header ul ul li {
+    width: 150px; /* Fixed width menu items*/
+    display: block; /* JQM makes a inline-blocks... reset it to block */
+}
+#header ul ul li a {
+    white-space: normal; /* Stop long menu names from truncating */
+}
+#header ul:hover ul {
+    /* display: block; /* Display menu on hover over parent */
+}
+#menu-left {
+    float: left;
+    margin-left:0.5em;
+}
+#menu-right {
+    float: right;
+    margin-right:0.5em;
+}
+#menu-left ul {
+    margin-left:0.5em;
+}
+#menu-right ul {
+    margin-right: 0.5em;
+    right: 0em;
+}
+#home .ui-header {
+    height: 75px;
+}
+#home .ui-header h1 {
+    font-size: 16pt;
+    margin-bottom:0px;
+}
+#txtSpan {
+    position: relative;
+    display: inline-block;
+    top: -5px; /* Doesnt seem possible to vertically center otherwise */
+}
+#home .ui-header h2 {
+    font-size: 14pt;
+    margin-top: 0px;
+}
+.menu-tablet, .menu-mobile{
+    margin-top: 10px;
+}
+.menu-tablet{
+    margin-left: 15px;
+}
+.menu-tablet a{
+    text-decoration: none;
+    margin: 5px 20px;
+    border-radius: 5px;
+    padding: 3px 13px;
+}
+.menu-tablet a:hover{
+    font-size: 17px;
+    background: #2f2f2f;
+    box-shadow: 0 0 10px #8d98ff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.76);
+}
+
+.ui-header{
+    height: 45px !important;
 }
