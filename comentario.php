@@ -17,7 +17,7 @@
         $insert_res = mysql_query($query, $connect);
     }
 
-    $query_select = "SELECT * FROM comentarios";
+    $query_select = "SELECT * FROM comentarios WHERE noticia_id = '" . $_POST['noticiaId'] ."'";
     $res = mysql_query($query_select, $connect);
 
     $output = array();

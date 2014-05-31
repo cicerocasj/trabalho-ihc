@@ -26,6 +26,24 @@ include "../header.php";
             </div>
         </div>
     </article>
+
+    <form action="../comentario.php" id="ajaxform" method="post">
+        <input type="text" id="urlinvisivel" name="urlinvisivel" value=" " style="display: none;">
+        <input type="text" id="noticiaId" name="noticiaId" value="2" style="display: none;">
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" data-mini="true" />
+        <label for="message">Mensagem:</label>
+        <textarea name="message" id="message"></textarea>
+        <input type="submit" value="Enviar" id="sendbutton">
+    </form>
+    <script>
+        document.getElementById('urlinvisivel').value = document.URL;
+    </script>
+
+    <div id="output-comments">
+
+    </div>
+
     <?php
     include "../aside.php";
     ?>

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="277a4509-1287-4475-897d-d28853522ef6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/comentario.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evolucao-dos-acidentes-de-transito/index.php" afterPath="$PROJECT_DIR$/evolucao-dos-acidentes-de-transito/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mortalidade-no-transito-das-capitais/index.php" afterPath="$PROJECT_DIR$/mortalidade-no-transito-das-capitais/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comentario.php" afterPath="$PROJECT_DIR$/comentario.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evolucao-por-categoria-de-acidente/index.php" afterPath="$PROJECT_DIR$/evolucao-por-categoria-de-acidente/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="trabalho-ihc.iws" />
@@ -41,7 +39,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/evolucao-dos-acidentes-de-transito/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="40" selection-start="2621" selection-end="2630" vertical-scroll-proportion="-5.2222223" vertical-offset="381" max-vertical-offset="1062">
+            <state line="40" column="0" selection-start="3072" selection-end="3114" vertical-scroll-proportion="-6.5555553" vertical-offset="543" max-vertical-offset="1062">
               <folding>
                 <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#!!top" expanded="true" />
@@ -50,12 +48,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="48" selection-start="3418" selection-end="3418" vertical-scroll-proportion="0.5270936" vertical-offset="975" max-vertical-offset="2214">
+            <state line="59" column="11" selection-start="2822" selection-end="2822" vertical-scroll-proportion="-3.2222223" vertical-offset="975" max-vertical-offset="2214">
               <folding>
                 <marker date="1401554084392" expanded="true" signature="3476:3483" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/evolucao-por-categoria-de-acidente/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="10" selection-start="3649" selection-end="3649" vertical-scroll-proportion="0.92941177" vertical-offset="318" max-vertical-offset="1062">
+              <folding>
+                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,9 +74,10 @@
       <file leaf-file-name="comentario.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comentario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="23" selection-start="138" selection-end="138" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="774">
+            <state line="8" column="33" selection-start="0" selection-end="1220" vertical-scroll-proportion="-2.3703704" vertical-offset="80" max-vertical-offset="774">
               <folding>
-                <marker date="1401554042332" expanded="true" signature="645:670" placeholder="SELECT * FRO..comentarios..." />
+                <marker date="1401555889164" expanded="true" signature="645:718" placeholder="SELECT * FRO..comentarios..." />
+                <marker date="1401555889164" expanded="true" signature="645:691" placeholder="SELECT * FRO..comentarios..." />
               </folding>
             </state>
           </provider>
@@ -96,17 +107,18 @@
         <option value="$PROJECT_DIR$/home/index.php" />
         <option value="$PROJECT_DIR$/mortalidade-no-transito-das-capitais/index.php" />
         <option value="$PROJECT_DIR$/evolucao-dos-acidentes-de-transito/index.php" />
-        <option value="$PROJECT_DIR$/comentario.php" />
         <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/comentario.php" />
+        <option value="$PROJECT_DIR$/evolucao-por-categoria-de-acidente/index.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP5" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="48" />
-    <option name="y" value="-4" />
-    <option name="width" value="1319" />
-    <option name="height" value="773" />
+    <option name="x" value="322" />
+    <option name="y" value="50" />
+    <option name="width" value="915" />
+    <option name="height" value="718" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -177,6 +189,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="evolucao-por-categoria-de-acidente" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trabalho-ihc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trabalho-ihc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="evolucao-dos-acidentes-de-transito" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -226,16 +252,21 @@
       <created>1401238873573</created>
       <updated>1401238873573</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ajax comentario funcionando local">
+      <created>1401554129475</created>
+      <updated>1401554129475</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="-4" width="1319" height="773" extended-state="6" />
+    <frame x="322" y="50" width="915" height="718" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3603505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -245,7 +276,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -267,7 +297,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="upando pro meu branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="upando pro meu branch" />
+    <MESSAGE value="ajax comentario funcionando local" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajax comentario funcionando local" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -294,7 +325,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="1" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="558">
           <folding>
-            <marker date="1401554042332" expanded="true" signature="645:670" placeholder="SELECT * FRO..comentarios..." />
+            <marker date="1401555889164" expanded="true" signature="645:718" placeholder="SELECT * FRO..comentarios..." />
+            <marker date="1401555889164" expanded="true" signature="645:691" placeholder="SELECT * FRO..comentarios..." />
           </folding>
         </state>
       </provider>
@@ -358,9 +390,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/comentario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="33" selection-start="0" selection-end="1220" vertical-scroll-proportion="-2.3703704" vertical-offset="80" max-vertical-offset="774">
+          <folding>
+            <marker date="1401555889164" expanded="true" signature="645:718" placeholder="SELECT * FRO..comentarios..." />
+            <marker date="1401555889164" expanded="true" signature="645:691" placeholder="SELECT * FRO..comentarios..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="11" selection-start="2822" selection-end="2822" vertical-scroll-proportion="-3.2222223" vertical-offset="975" max-vertical-offset="2214">
+          <folding>
+            <marker date="1401554084392" expanded="true" signature="3476:3483" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/evolucao-dos-acidentes-de-transito/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="40" selection-start="2621" selection-end="2630" vertical-scroll-proportion="-5.2222223" vertical-offset="381" max-vertical-offset="1062">
+        <state line="40" column="0" selection-start="3072" selection-end="3114" vertical-scroll-proportion="-6.5555553" vertical-offset="543" max-vertical-offset="1062">
           <folding>
             <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#!!top" expanded="true" />
@@ -368,20 +419,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comentario.php">
+    <entry file="file://$PROJECT_DIR$/evolucao-por-categoria-de-acidente/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="23" selection-start="138" selection-end="138" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="774">
+        <state line="44" column="10" selection-start="3649" selection-end="3649" vertical-scroll-proportion="0.92941177" vertical-offset="318" max-vertical-offset="1062">
           <folding>
-            <marker date="1401554042332" expanded="true" signature="645:670" placeholder="SELECT * FRO..comentarios..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="48" selection-start="3418" selection-end="3418" vertical-scroll-proportion="0.5270936" vertical-offset="975" max-vertical-offset="2214">
-          <folding>
-            <marker date="1401554084392" expanded="true" signature="3476:3483" placeholder="..." />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
