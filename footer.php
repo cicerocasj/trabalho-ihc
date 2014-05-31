@@ -40,19 +40,14 @@
 
 </div>
 <!-- Jquery Mobile -->
-<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../js/jquery.js"></script>
 <script type="text/javascript" src="../js/jquery.mobile-1.3.1.min.js"></script>
 <script type="text/javascript" src="../js/script-mobile.js"></script>
-<script type="text/javascript" src="../js/jquery.js"></script>
-<script type="text/javascript" src="../js/groundwork.all.js"></script>
 <!--<script type="text/javascript" src="../js/scripts.js"></script>-->
 
 <!-- Modernizr -->
 <script src="../js/modernizr-2.6.2.min.js"></script>
 <!-- jQuery-->
-<script type="text/javascript" src="../js/jquery.jcarousel.min.js"></script>
-<script type="text/javascript" src="../js/jcarousel.responsive.js"></script>
-
 <script src="../js/myajax.js"></script>
 
 </body>

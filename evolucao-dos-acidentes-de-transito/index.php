@@ -1,5 +1,5 @@
 <?php include "../header.php"; ?>
-    <div class="ui-grid-b my-breakpoint">
+    <div class="ui-grid-b my-breakpoint" id="single-notice">
         <div id="notice" class="ui-block-a">
             <h4 data-compression="7" data-max="20" class="align-center zero" title="Evolução dos acidentes de trânsito 1980/2011">
                 Evolução dos acidentes de trânsito 1980/2011
@@ -12,21 +12,24 @@
                 Já em 2010, o SIM registra perto de 43 mil mortes no trânsito, superado a seguir com os números de 2011. E o mais preocupante do caso é que a tendência evidente na série a partir do ano 2000 é de continuar crescendo com um ritmo elevado: 3,7% ao ano em média.
             </p>
         </div>
-        <form action="../comentario.php" id="ajaxform" method="post">
-            <input type="text" id="urlinvisivel" name="urlinvisivel" value=" " style="display: none;">
-            <input type="text" id="noticiaId" name="noticiaId" value="1" style="display: none;">
-            <label for="email">Email:</label>
-            <input type="text" name="email" id="email" data-mini="true" />
-            <label for="message">Mensagem:</label>
-            <textarea name="message" id="message"></textarea>
-            <input type="submit" value="Enviar" id="sendbutton">
-        </form>
+        <div class="ui-block-a">
+            <form action="../comentario.php" id="ajaxform" method="post">
+                <input type="text" id="urlinvisivel" name="urlinvisivel" value=" " style="display: none;">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" data-mini="true" />
+                <label for="message">Mensagem:</label>
+                <textarea name="message" id="message"></textarea>
+                <input type="submit" value="Enviar" id="sendbutton">
+                <input type="text" id="noticiaId" name="noticiaId" value="1" style="display: none;">
+                <span id="text-result"></span>
+            </form>
+        </div>
         <script>
             document.getElementById('urlinvisivel').value = document.URL;
         </script>
 
         <div id="output-comments">
-
+            <ul></ul>
         </div>
     </div>
 <?php include "../footer.php"; ?>
