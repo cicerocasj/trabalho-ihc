@@ -27,6 +27,14 @@ footer ul li{
         display: block
     }
 
+    .my-breakpoint > .ui-block-a, .my-breakpoint > .ui-block-b{
+        height: 360px;
+    }
+
+    .my-breakpoint > #notice{
+        height: auto !important;
+    }
+
     .my-breakpoint .ui-block-a{
         margin: 1% 1% 1% 10% !important;
         width: 39% !important;
@@ -210,4 +218,7 @@ footer i{
 
 .ui-header{
     height: 45px !important;
+}
+#notice{
+    width: 80% !important
 }

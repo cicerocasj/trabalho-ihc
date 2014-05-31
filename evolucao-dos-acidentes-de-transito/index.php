@@ -1,6 +1,6 @@
 <?php include "../header.php"; ?>
     <div class="ui-grid-b my-breakpoint">
-        <div class="ui-block-a">
+        <div id="notice" class="ui-block-a">
             <h4 data-compression="7" data-max="20" class="align-center zero" title="Evolução dos acidentes de trânsito 1980/2011">
                 Evolução dos acidentes de trânsito 1980/2011
             </h4>
