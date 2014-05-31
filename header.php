@@ -36,7 +36,6 @@
         <a id="bars-button" data-icon="bars"  class="ui-btn-right menu-mobile" style="margin-top:10px;" href="#navpanel">Ultimas noticias</a>
         <div class="menu-tablet">
             <a href="#">Home</a>
-            <a href="#">Noticias</a>
             <a href="#">Contato</a>
         </div>
     </div>
