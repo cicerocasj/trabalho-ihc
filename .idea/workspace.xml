@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbdc4592-32e8-4994-b61c-b89603402743" name="Default" comment="listando auto">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.mobile-1.3.1.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/myajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comentario.php" afterPath="$PROJECT_DIR$/comentario.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frota-veicular-e-mortalidade-no-transito/index.php" afterPath="$PROJECT_DIR$/frota-veicular-e-mortalidade-no-transito/index.php" />
+    <list default="true" id="bbdc4592-32e8-4994-b61c-b89603402743" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="e4c5837b-673c-4342-b456-3222a0c5ba54" name="New changelist" comment="" />
@@ -40,21 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myajax.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="myajax.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/myajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="23" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="521" max-vertical-offset="1170">
+            <state line="5" column="83" selection-start="220" selection-end="220" vertical-scroll-proportion="0.13867489" vertical-offset="0" max-vertical-offset="1170">
               <folding>
-                <marker date="1401572493772" expanded="true" signature="1262:1269" placeholder="..." />
+                <marker date="1401573337024" expanded="true" signature="1262:1269" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/evolucao-dos-acidentes-de-transito/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="37" selection-start="471" selection-end="471" vertical-scroll-proportion="0.20197044" vertical-offset="3" max-vertical-offset="666">
+            <state line="4" column="31" selection-start="283" selection-end="283" vertical-scroll-proportion="-2.5555556" vertical-offset="3" max-vertical-offset="666">
               <folding />
             </state>
           </provider>
@@ -72,7 +67,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="raphael" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -93,8 +88,8 @@
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/comentario.php" />
         <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/js/myajax.js" />
         <option value="$PROJECT_DIR$/frota-veicular-e-mortalidade-no-transito/index.php" />
+        <option value="$PROJECT_DIR$/js/myajax.js" />
       </list>
     </option>
   </component>
@@ -189,62 +184,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trabalho-ihc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trabalho-ihc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="internacoes-hospitalares-por-acidentes-de-transito" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trabalho-ihc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trabalho-ihc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frota-veicular-e-mortalidade-no-transito" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trabalho-ihc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trabalho-ihc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="evolucao-por-categoria-de-acidente" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trabalho-ihc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trabalho-ihc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="evolucao-dos-acidentes-de-transito" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -331,27 +270,31 @@
       <created>1401507345788</created>
       <updated>1401507345788</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="listando automaticamente">
+      <created>1401572610669</created>
+      <updated>1401572610669</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="-4" width="1319" height="773" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20652999" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20652999" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -386,7 +329,8 @@
     <MESSAGE value="site pronto com swipe" />
     <MESSAGE value="retirado o noticias do menu" />
     <MESSAGE value="editando contatos" />
-    <option name="LAST_COMMIT_MESSAGE" value="editando contatos" />
+    <MESSAGE value="listando automaticamente" />
+    <option name="LAST_COMMIT_MESSAGE" value="listando automaticamente" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -519,15 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/myajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="521" max-vertical-offset="1170">
-          <folding>
-            <marker date="1401572493772" expanded="true" signature="1262:1269" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/evolucao-por-categoria-de-acidente/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="0" selection-end="5" vertical-scroll-proportion="0.33497536" vertical-offset="120" max-vertical-offset="756">
@@ -554,8 +489,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/evolucao-dos-acidentes-de-transito/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="471" selection-end="471" vertical-scroll-proportion="0.20197044" vertical-offset="3" max-vertical-offset="666">
+        <state line="4" column="31" selection-start="283" selection-end="283" vertical-scroll-proportion="-2.5555556" vertical-offset="3" max-vertical-offset="666">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/myajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="83" selection-start="220" selection-end="220" vertical-scroll-proportion="0.13867489" vertical-offset="0" max-vertical-offset="1170">
+          <folding>
+            <marker date="1401573337024" expanded="true" signature="1262:1269" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
