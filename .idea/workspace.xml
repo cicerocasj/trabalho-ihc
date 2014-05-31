@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbdc4592-32e8-4994-b61c-b89603402743" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery.mobile-1.3.1.min.map" afterPath="$PROJECT_DIR$/js/jquery.mobile-1.3.7.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script-mobile.js" afterPath="$PROJECT_DIR$/js/script-mobile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="e4c5837b-673c-4342-b456-3222a0c5ba54" name="New changelist" comment="" />
@@ -35,21 +38,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myajax.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/myajax.js">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="83" selection-start="220" selection-end="220" vertical-scroll-proportion="0.13867489" vertical-offset="0" max-vertical-offset="1170">
-              <folding>
-                <marker date="1401573337024" expanded="true" signature="1262:1269" placeholder="..." />
-              </folding>
+            <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="954">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/evolucao-dos-acidentes-de-transito/index.php">
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="31" selection-start="283" selection-end="283" vertical-scroll-proportion="-2.5555556" vertical-offset="3" max-vertical-offset="666">
+            <state line="34" column="128" selection-start="2130" selection-end="2144" vertical-scroll-proportion="-13.888889" vertical-offset="237" max-vertical-offset="846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script-mobile.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/script-mobile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="62" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.45320198" vertical-offset="480" max-vertical-offset="1170">
               <folding />
             </state>
           </provider>
@@ -81,15 +100,16 @@
         <option value="$PROJECT_DIR$/css/jquery.mobile.icons.min.css" />
         <option value="$PROJECT_DIR$/home/index.php" />
         <option value="$PROJECT_DIR$/evolucao-dos-acidentes-de-transito/index.php" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/evolucao-por-categoria-de-acidente/index.php" />
         <option value="$PROJECT_DIR$/internacoes-hospitalares-por-acidentes-de-transito/index.php" />
         <option value="$PROJECT_DIR$/contato/index.php" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/comentario.php" />
-        <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/frota-veicular-e-mortalidade-no-transito/index.php" />
         <option value="$PROJECT_DIR$/js/myajax.js" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/js/script-mobile.js" />
+        <option value="$PROJECT_DIR$/footer.php" />
       </list>
     </option>
   </component>
@@ -181,6 +201,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="trabalho-ihc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trabalho-ihc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trabalho-ihc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trabalho-ihc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trabalho-ihc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -291,6 +339,7 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20652999" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -299,7 +348,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -360,10 +408,7 @@
     <entry file="file://$PROJECT_DIR$/frota-veicular-e-mortalidade-no-transito/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="16" selection-start="273" selection-end="2137" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="408">
-          <folding>
-            <element signature="e#2303#2325#0" expanded="true" />
-            <element signature="e#2400#2422#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -432,33 +477,14 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2244" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="799" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contato/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="18" selection-start="429" selection-end="429" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="561" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="954">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comentario.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="79" selection-start="871" selection-end="871" vertical-scroll-proportion="-9.333333" vertical-offset="144" max-vertical-offset="846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="39" selection-start="2673" selection-end="2673" vertical-scroll-proportion="0.8078818" vertical-offset="498" max-vertical-offset="1170">
           <folding />
         </state>
       </provider>
@@ -473,10 +499,7 @@
     <entry file="file://$PROJECT_DIR$/frota-veicular-e-mortalidade-no-transito/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="71" selection-start="2398" selection-end="2398" vertical-scroll-proportion="0.5566502" vertical-offset="21" max-vertical-offset="738">
-          <folding>
-            <element signature="e#2303#2325#0" expanded="true" />
-            <element signature="e#2400#2422#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -489,17 +512,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/evolucao-dos-acidentes-de-transito/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="31" selection-start="283" selection-end="283" vertical-scroll-proportion="-2.5555556" vertical-offset="3" max-vertical-offset="666">
+        <state line="6" column="43" selection-start="374" selection-end="374" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="666">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/myajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="83" selection-start="220" selection-end="220" vertical-scroll-proportion="0.13867489" vertical-offset="0" max-vertical-offset="1170">
+        <state line="17" column="38" selection-start="731" selection-end="731" vertical-scroll-proportion="0.47149462" vertical-offset="0" max-vertical-offset="1170">
           <folding>
-            <marker date="1401573337024" expanded="true" signature="1262:1269" placeholder="..." />
+            <marker date="1401573337024" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="954">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="128" selection-start="2130" selection-end="2144" vertical-scroll-proportion="-13.888889" vertical-offset="237" max-vertical-offset="846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script-mobile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="62" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.45320198" vertical-offset="480" max-vertical-offset="1170">
+          <folding />
         </state>
       </provider>
     </entry>
