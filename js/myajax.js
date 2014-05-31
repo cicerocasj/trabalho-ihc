@@ -25,10 +25,9 @@ $(document).ready(function(){
                 data : postData,
                 dataType: 'json',
                 success:function(data, textStatus, jqXHR) {
-                    alert(data['status']);
                     $('#email').val("");
                     $('#message').val("");
-                    var status = "<span style='color: ";
+                    var status = "<span id='result_message' style='color: ";
                     if (data['status']) {
                         status = status + "green;'>Mensagem salva";
                     } else {
@@ -37,16 +36,19 @@ $(document).ready(function(){
                     status = status + "</span>";
                     var results = "";
                     $.each(data['results'], function(key, value) {
-                        results = results + "<p>Email: " + value['email'] + "</p>";
+                        results = results + "<li class='ui-block-a'>";
+                        results = results + "<h4>Email: " + value['email'] + "</h4>";
                         results = results + "<p>Mensagem: " + value['message'] + "</p>";
-                        results = results + "<p>Data da mensagem: " + value['data'] + "</p>";
-                        results = results + "<br><br><br>";
+                        results = results + "<p>" + value['data'] + "</p>";
+                        results = results + "</li>";
                     });
-                    $('#output-comments').html(status+results);
+                    $('#text-result').html(status);
+                    $('#output-comments ul').html(results);
+                    document.getElementById('result_message').setAttribute('class','');
+
                 },
                 error: function(jqXHR, textStatus, errorThrown)
                 {
-                    alert('num foi ta?');
                     console.error(jqXHR);
                 }
             });
@@ -57,4 +59,10 @@ $(document).ready(function(){
     });
 
     getMessages();
-})
+    $("#sendbutton").click();
+    setTimeout(function(){
+//        alert('aaaaaaaaaaa');
+        document.getElementById('result_message').setAttribute('class','closed');
+    }, 2000);
+
+});

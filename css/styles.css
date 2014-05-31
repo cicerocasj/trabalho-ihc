@@ -88,6 +88,9 @@ footer ul li{
         box-shadow: 1px 1px 5px #000000 !important;
         -moz-box-shadow: 1px 1px 5px #000000 !important;
     }
+    #notice{
+        width: 80% !important;
+    }
 }
 @media all and (max-width: 30em) {
     .menu-mobile{display: block}
@@ -111,6 +114,16 @@ footer ul li{
     footer .social-midia{
         position: relative;
         left: 10%;
+    }
+    #output-comments ul{
+        padding-left: 5px;
+    }
+    #notice{
+        margin-right: 0;
+        width: 100% !important;
+    }
+    #output-comments li{
+        margin-bottom: 10px;
     }
 }
 /*this block should go in the styles.css file*/
@@ -249,6 +262,19 @@ footer i{
 .ui-header{
     height: 45px !important;
 }
-#notice{
-    width: 80% !important
+.closed{
+    display: none !important;
+}
+#output-comments ul{
+    list-style: none;
+}
+#output-comments li{
+    min-width: 300px;
+    margin-bottom: 10px;
+}
+#single-notice > div{
+    margin-bottom: 20px;
+}
+#single-notice > div:nth-child(2){
+    height: 280px;
 }
