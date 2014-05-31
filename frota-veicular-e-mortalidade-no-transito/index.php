@@ -15,5 +15,22 @@
                 Na virada do século, no ano 2000, temos 4,0 milhões de motocicletas registradas, o que já representa 13,6% do parque veicular. Para 2011, o número pula para 18,4 milhões, representando 26,1% do total nacional de veículos registrados pelo Denatran
             </p>
         </div>
+
+        <form action="../comentario.php" id="ajaxform" method="post">
+            <input type="text" id="urlinvisivel" name="urlinvisivel" value=" " style="display: none;">
+            <input type="text" id="noticiaId" name="noticiaId" value="3" style="display: none;">
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" data-mini="true" />
+            <label for="message">Mensagem:</label>
+            <textarea name="message" id="message"></textarea>
+            <input type="submit" value="Enviar" id="sendbutton">
+        </form>
+        <script>
+            document.getElementById('urlinvisivel').value = document.URL;
+        </script>
+
+        <div id="output-comments">
+
+        </div>
     </div>
 <?php include "../footer.php"; ?>
