@@ -13,7 +13,8 @@ footer ul li{
     color: white;
 }
 .my-breakpoint .ui-block-a,
-.my-breakpoint .ui-block-b{
+.my-breakpoint .ui-block-b,
+.my-breakpoint .ui-block-c{
     box-shadow: 1px 1px 5px #000000 !important;
     -moz-box-shadow: 1px 1px 5px #000000 !important;
     background: #ffffff;
@@ -57,6 +58,35 @@ footer ul li{
         position: relative;
         bottom: 50px;
         left: 5%;
+    }
+
+    #contact > div{
+        height: auto !important;
+    }
+
+    #contact img{
+        width: 75%;
+        border-radius: 50%;
+        padding: 4% !important;
+    }
+
+    #contact .ui-block-a{
+        margin: 1% 1% 1% 10% !important;
+        width: 25% !important;
+        box-shadow: 1px 1px 5px #000000 !important;
+        -moz-box-shadow: 1px 1px 5px #000000 !important;
+    }
+    #contact .ui-block-b{
+        margin: 1% 1% 1% 1% !important;
+        width: 25% !important;
+        box-shadow: 1px 1px 5px #000000 !important;
+        -moz-box-shadow: 1px 1px 5px #000000 !important;
+    }
+    #contact .ui-block-c{
+        margin: 1% 10% 1% 1% !important;
+        width: 25% !important;
+        box-shadow: 1px 1px 5px #000000 !important;
+        -moz-box-shadow: 1px 1px 5px #000000 !important;
     }
 }
 @media all and (max-width: 30em) {

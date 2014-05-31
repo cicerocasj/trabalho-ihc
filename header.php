@@ -17,26 +17,26 @@
     <div data-role="panel" id="navpanel-left" data-theme="c"
          data-display="overlay" data-position="left">
         <div data-role="controlgroup" data-corners="false">
-            <a href="#" data-role="button">Home</a>
-            <a href="#" data-role="button">Contato</a>
+            <a href="../home" data-role="button">Home</a>
+            <a href="../contato" data-role="button">Contato</a>
         </div>
     </div>
     <div data-role="panel" id="navpanel" data-theme="c"
          data-display="overlay" data-position="right">
         <div data-role="controlgroup" data-corners="false">
             <a href="../evolucao-dos-acidentes-de-transito/" data-role="button">Evolução dos acidentes de trânsito</a>
-            <a href="#" data-role="button">Evolução por categoria de acidente</a>
-            <a href="#" data-role="button">Frota veicular e mortalidade no trânsito</a>
-            <a href="#" data-role="button">Internações hospitalares por acidentes de transito</a>
-            <a href="#" data-role="button">Mortalidade no trânsito das capitais</a>
+            <a href="../evolucao-dos-acidentes-de-transito" data-role="button">Evolução por categoria de acidente</a>
+            <a href="../frota-veicular-e-mortalidade-no-transito" data-role="button">Frota veicular e mortalidade no trânsito</a>
+            <a href="../internacoes-hospitalares-por-acidentes-de-transito" data-role="button">Internações hospitalares por acidentes de transito</a>
+            <a href="../mortalidade-no-transito-das-capitais" data-role="button">Mortalidade no trânsito das capitais</a>
         </div>
     </div>
     <div id="header" data-role="header" data-theme="a">
         <a id="bars-button-left" data-icon="bars"  class="ui-btn-left menu-mobile" style="margin-top:10px;" href="#navpanel-left">Menu</a>
         <a id="bars-button" data-icon="bars"  class="ui-btn-right menu-mobile" style="margin-top:10px;" href="#navpanel">Ultimas noticias</a>
         <div class="menu-tablet">
-            <a href="#">Home</a>
-            <a href="#">Contato</a>
+            <a href="../home">Home</a>
+            <a href="../contato">Contato</a>
         </div>
     </div>
     <div id="index" data-role="content">

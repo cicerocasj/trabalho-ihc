@@ -7,6 +7,9 @@
                 <a href="../home" title="Home">Home</a>
             </li>
             <li>
+                <a href="../contato" title="Contato">Contato</a>
+            </li>
+            <li>
                 <a href="../evolucao-dos-acidentes-de-transito" title="Evolução dos acidentes de trânsito 1980/2011">Evolução dos acidentes de trânsito</a>
             </li>
             <li>
@@ -20,9 +23,6 @@
             </li>
             <li>
                 <a href="../mortalidade-no-transito-das-capitais" title="Mortalidade no trânsito das capitais">Mortalidade no trânsito das capitais</a>
-            </li>
-            <li>
-                <a href="../contato" title="Contato">Contato</a>
             </li>
         </ul>
     </div>
