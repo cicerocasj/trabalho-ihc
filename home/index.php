@@ -2,7 +2,7 @@
     <div class="ui-grid-b my-breakpoint">
         <div class="ui-block-a">
             <h4 data-compression="7" data-max="20" class="align-center zero" title="Evolução dos acidentes de trânsito 1980/2011">
-                <a title="Evolução dos acidentes de trânsito 1980/2011" class="responsiveText-wrapper" href="../evolucao-dos-acidentes-de-transito/">Evolução dos acidentes de trânsito 1980/2011</a>
+                <a rel="external" title="Evolução dos acidentes de trânsito 1980/2011" class="responsiveText-wrapper" href="../evolucao-dos-acidentes-de-transito/">Evolução dos acidentes de trânsito 1980/2011</a>
             </h4>
             <p>
                 <img src="../images/evolucao-dos-acidentes-de-transito.png" alt="Evolução dos acidentes de trânsito 1980/2011" title="Evolução dos acidentes de trânsito 1980/2011">
@@ -11,7 +11,7 @@
         </div>
         <div class="ui-block-b">
             <h4 data-compression="7" data-max="20" class="align-center zero" title="Evolução por categoria de acidente">
-                <a class="responsiveText-wrapper" href="../evolucao-por-categoria-de-acidente" title="Evolução por categoria de acidente">Evolução por categoria de acidente</a>
+                <a rel="external" class="responsiveText-wrapper" href="../evolucao-por-categoria-de-acidente" title="Evolução por categoria de acidente">Evolução por categoria de acidente</a>
             </h4>
 
             <p><img src="../images/evolucao-por-categoria-de-acidente.png" title="Evolução por categoria de acidente" alt="Evolução por categoria de acidente">
@@ -19,7 +19,7 @@
             </p>
         </div>
         <div class="ui-block-a"><h4 data-compression="7" data-max="20" class="align-center zero" title="Frota veicular e mortalidade no trânsito">
-                <a class="responsiveText-wrapper" href="../frota-veicular-e-mortalidade-no-transito" title="Frota veicular e mortalidade no trânsito">Frota veicular e mortalidade no trânsito</a>
+                <a rel="external" class="responsiveText-wrapper" href="../frota-veicular-e-mortalidade-no-transito" title="Frota veicular e mortalidade no trânsito">Frota veicular e mortalidade no trânsito</a>
             </h4>
 
             <p><img src="../images/frota-veicular-e-mortalidade-no-transito.png" title="Frota veicular e mortalidade no trânsito" alt="Frota veicular e mortalidade no trânsito">
@@ -28,7 +28,7 @@
         </div>
         <div class="ui-block-b">
             <h4 data-compression="7" data-max="20" class="align-center zero" title="Internações hospitalares por acidentes de trânsito">
-                <a class="responsiveText-wrapper" href="../internacoes-hospitalares-por-acidentes-de-transito" title="Internações hospitalares por acidentes de trânsito">Internações hospitalares por acidentes de trânsito</a>
+                <a rel="external" class="responsiveText-wrapper" href="../internacoes-hospitalares-por-acidentes-de-transito" title="Internações hospitalares por acidentes de trânsito">Internações hospitalares por acidentes de trânsito</a>
             </h4>
 
             <p><img src="../images/internacoes-hospitalares-por-acidentes-de-transito.png" title="Internações hospitalares por acidentes de trânsito" alt="Internações hospitalares por acidentes de trânsito">
@@ -37,7 +37,7 @@
         </div>
         <div class="ui-block-a">
             <h4 data-compression="7" data-max="20" class="align-center zero" title="Mortalidade no trânsito das capitais">
-                <a class="responsiveText-wrapper" href="../mortalidade-no-transito-das-capitais" title="Mortalidade no trânsito das capitais">Mortalidade no trânsito das capitais</a>
+                <a rel="external" class="responsiveText-wrapper" href="../mortalidade-no-transito-das-capitais" title="Mortalidade no trânsito das capitais">Mortalidade no trânsito das capitais</a>
             </h4>
 
             <p><img src="../images/mortalidade-no-transito-das-capitais.png" title="Mortalidade no trânsito das capitais" alt="Mortalidade no trânsito das capitais">

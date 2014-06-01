@@ -1,12 +1,9 @@
 <?php include "../header.php"; ?>
-    <div class="ui-grid-b my-breakpoint">
+    <div class="ui-grid-b my-breakpoint" id="single-notice">
         <div id="notice" class="ui-block-a">
             <h4 title="Evolução por categoria de acidente" data-compression="7" data-max="20" class="align-center zero">
                 Evolução por categoria de acidente
             </h4>
-            <script type="text/javascript" src="../js/graficos_noticias/amcharts.js"></script>
-            <script type="text/javascript" src="../js/graficos_noticias/serial.js"></script>
-            <script type="text/javascript" src="../js/graficos_noticias/dark.js"></script>
             <script type="text/javascript" src="../js/graficos_noticias/grafico_noticia3.js"></script>
             <div id="chartdiv"></div>
             <p>
@@ -17,21 +14,24 @@
                 Desta forma, se na década passada eram largamente preponderantes as mortes de pedestres, para 2011, a morte de motociclistas ultrapassa as demais categorias, representando 1/3 das mortes no trânsito, com a preocupante tendência de um contínuo crescimento.
             </p>
         </div>
-        <form action="../comentario.php" id="ajaxform" method="post">
-            <input type="text" id="urlinvisivel" name="urlinvisivel" value=" " style="display: none;">
-            <input type="text" id="noticiaId" name="noticiaId" value="2" style="display: none;">
-            <label for="email">Email:</label>
-            <input type="text" name="email" id="email" data-mini="true" />
-            <label for="message">Mensagem:</label>
-            <textarea name="message" id="message"></textarea>
-            <input type="submit" value="Enviar" id="sendbutton">
-        </form>
+        <div class="ui-block-a">
+            <form action="../comentario.php" id="ajaxform" method="post">
+                <input type="text" id="urlinvisivel" name="urlinvisivel" value=" " style="display: none;">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" data-mini="true" />
+                <label for="message">Mensagem:</label>
+                <textarea name="message" id="message"></textarea>
+                <input type="submit" value="Enviar" id="sendbutton">
+                <input type="text" id="noticiaId" name="noticiaId" value="2" style="display: none;">
+                <span id="text-result"></span>
+            </form>
+        </div>
         <script>
             document.getElementById('urlinvisivel').value = document.URL;
         </script>
 
         <div id="output-comments">
-
+            <ul></ul>
         </div>
     </div>
 <?php include "../footer.php"; ?>
