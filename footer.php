@@ -40,7 +40,7 @@
 
 </div>
 <!-- Jquery Mobile -->
-<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="../js/jquery.mobile-1.3.1.min.js"></script>
 <script type="text/javascript" src="../js/script-mobile.js"></script>
 
