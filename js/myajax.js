@@ -12,7 +12,7 @@ $(document).ready(function(){
                 results = results + "<p>" + value['data'] + "</p>";
                 results = results + "</li>";
             });
-            $('#output-comments').html(results);
+            $('#output-comments ul').html(results);
         });
     }
 
@@ -59,8 +59,8 @@ $(document).ready(function(){
         });
     });
 
-    //getMessages();
-    $("#sendbutton").click();
+    getMessages();
+    //$("#sendbutton").click();
     setTimeout(function(){
 //        alert('aaaaaaaaaaa');
         document.getElementById('result_message').setAttribute('class','closed');
