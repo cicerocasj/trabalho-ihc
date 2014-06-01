@@ -1,11 +1,16 @@
 <?php
 
-    //$connect = mysql_connect("localhost", "u144400074_fatec", "fatecihc123") or die("Falha ao conectar");
-    $connect = mysql_connect("localhost", "root", "") or die("Falha ao conectar");
-//    $connect = mysql_connect("localhost", "root", "raphael") or die("Falha ao conectar");
+    if (!$_REQUEST['noticiaId'] or $_REQUEST['noticiaId'] <=0) {
+        header("Location: home/");
+        exit;
+    }
 
-    mysql_select_db("mortalidade", $connect);
-//    mysql_select_db("u144400074_fatec", $connect);
+    //$connect = mysql_connect("localhost", "u144400074_fatec", "fatecihc123") or die("Falha ao conectar");
+//    $connect = mysql_connect("localhost", "root", "") or die("Falha ao conectar");
+    $connect = mysql_connect("localhost", "root", "raphael") or die("Falha ao conectar");
+
+//    mysql_select_db("mortalidade", $connect);
+    mysql_select_db("u144400074_fatec", $connect);
 
     $email = $_REQUEST['email'];
     $message = $_REQUEST['message'];

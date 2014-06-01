@@ -6,10 +6,11 @@ $(document).ready(function(){
         $.getJSON(formURL+"?noticiaId="+$("#noticiaId").val(), function(response) {
             var results = "";
             $.each(response['results'], function(key, value) {
-                results = results + "<p>Email: " + value['email'] + "</p>";
+                results = results + "<li class='ui-block-a'>";
+                results = results + "<h4>Email: " + value['email'] + "</h4>";
                 results = results + "<p>Mensagem: " + value['message'] + "</p>";
-                results = results + "<p>Data da mensagem: " + value['data'] + "</p>";
-                results = results + "<br><br><br>";
+                results = results + "<p>" + value['data'] + "</p>";
+                results = results + "</li>";
             });
             $('#output-comments').html(results);
         });
@@ -58,7 +59,7 @@ $(document).ready(function(){
         });
     });
 
-    getMessages();
+    //getMessages();
     $("#sendbutton").click();
     setTimeout(function(){
 //        alert('aaaaaaaaaaa');
