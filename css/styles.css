@@ -61,30 +61,33 @@ footer ul li{
     }
 
     #contact > div{
-        height: auto !important;
+        height: 300px !important;
+        display: inline-block;
+        background: #ffffff;
     }
 
     #contact img{
-        width: 75%;
+        width: 70%;
         border-radius: 50%;
-        padding: 4% !important;
+        padding: 0% !important;
+        margin-left: 12%;
     }
 
-    #contact .ui-block-a{
+    #contact .cicero{
         margin: 1% 1% 1% 10% !important;
-        width: 25% !important;
+        width: 24% !important;
         box-shadow: 1px 1px 5px #000000 !important;
         -moz-box-shadow: 1px 1px 5px #000000 !important;
     }
-    #contact .ui-block-b{
+    #contact .raphael{
         margin: 1% 1% 1% 1% !important;
-        width: 25% !important;
+        width: 24% !important;
         box-shadow: 1px 1px 5px #000000 !important;
         -moz-box-shadow: 1px 1px 5px #000000 !important;
     }
-    #contact .ui-block-c{
+    #contact .rodrigo{
         margin: 1% 10% 1% 1% !important;
-        width: 25% !important;
+        width: 24% !important;
         box-shadow: 1px 1px 5px #000000 !important;
         -moz-box-shadow: 1px 1px 5px #000000 !important;
     }
@@ -125,6 +128,24 @@ footer ul li{
     #output-comments li{
         margin-bottom: 10px;
     }
+    #contact > div{
+        height: 335px !important;
+    }
+
+    #contact img{
+        width: 70%;
+        border-radius: 50%;
+        padding: 4% !important;
+    }
+
+    .cicero, .raphael, .rodrigo{
+        margin: 1% 1% 1% 1% !important;
+        width: 95% !important;
+        box-shadow: 1px 1px 5px #000000 !important;
+        -moz-box-shadow: 1px 1px 5px #000000 !important;
+        background: #ffffff;
+    }
+
 }
 /*this block should go in the styles.css file*/
 .ui-panel-inner {
