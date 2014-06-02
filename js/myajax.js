@@ -72,12 +72,27 @@ $(document).ready(function(){
             return this.indexOf(str) == 0;
         };
     }
-    var alert_swipe = $("#alert-swipe");
-    alert_swipe.click(function(){
+    //var alert_swipe = $("#alert-swipe");
+
+    function setCookieSwipe(object) {
+        document.cookie = "alert_swipe=disabled";
+        //$("#alert-swipe").hide();
+    }
+
+    $("#alert-swipe").swipeleft(function(){
+        $("#alert-swipe").addClass("animated bounceOutLeft");
+        setCookieSwipe($(this));
+    });
+
+    $("#alert-swipe").swiperight(function(){
+        $("#alert-swipe").addClass("animated bounceOutRight");
+        setCookieSwipe($(this));
+    });
+    /*alert_swipe.click(function(){
         document.cookie = "alert_swipe=disabled";
         alert_swipe.hide();
-    });
+    });*/
     if(document.cookie.startsWith("alert_swipe=disabled")){
-        alert_swipe.hide();
+        $("#alert-swipe").hide();
     }
 });
