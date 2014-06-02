@@ -20,6 +20,12 @@ footer ul li{
     background: #ffffff;
     padding: 7px;
 }
+#contact h3{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+/*estilo que não são mobile*/
 @media all and (min-width: 30.1em) {
     .menu-mobile{
         display: none !important;
@@ -64,13 +70,14 @@ footer ul li{
         height: 300px !important;
         display: inline-block;
         background: #ffffff;
+        padding-bottom: 25px;
     }
 
     #contact img{
         width: 70%;
         border-radius: 50%;
         padding: 0% !important;
-        margin-left: 12%;
+        margin-left: 14%;
     }
 
     #contact .cicero{
@@ -94,8 +101,17 @@ footer ul li{
     #notice{
         width: 80% !important;
     }
+    .ui-header{
+        height: 45px !important;
+    }
 }
+/*estilos para mobile*/
 @media all and (max-width: 30em) {
+    #contact h3{
+        text-align: center;
+        position: relative;
+        top: 20px;
+    }
     .menu-mobile{display: block}
     .menu-tablet{
         display: none
@@ -135,7 +151,10 @@ footer ul li{
     #contact img{
         width: 70%;
         border-radius: 50%;
-        padding: 4% !important;
+        padding: 0% !important;
+        position: relative;
+        top: 45px;
+        left: 45px;
     }
 
     .cicero, .raphael, .rodrigo{
@@ -145,7 +164,9 @@ footer ul li{
         -moz-box-shadow: 1px 1px 5px #000000 !important;
         background: #ffffff;
     }
-
+    .ui-header{
+        height: 55px !important;
+    }
 }
 /*this block should go in the styles.css file*/
 .ui-panel-inner {
@@ -270,10 +291,6 @@ footer i{
     background: #2f2f2f;
     box-shadow: 0 0 10px #8d98ff;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.76);
-}
-
-.ui-header{
-    height: 45px !important;
 }
 .closed{
     display: none !important;
