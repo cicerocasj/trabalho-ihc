@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/jquery.mobile-1.3.1.min.css" />
     <link rel="stylesheet" href="../css/grafico_noticia.css" />
     <link rel="stylesheet" href="../css/styles.css" />
-<!--    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">-->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <script type="text/javascript" src="../js/graficos_noticias/amcharts.js"></script>
     <script type="text/javascript" src="../js/graficos_noticias/serial.js"></script>
     <script type="text/javascript" src="../js/graficos_noticias/dark.js"></script>
