@@ -88,6 +88,11 @@ $(document).ready(function(){
         $("#alert-swipe").addClass("animated bounceOutRight");
         setCookieSwipe($(this));
     });
+
+    $("#alert-swipe").click(function(){
+        $(this).addClass('animated hinge');
+        setCookieSwipe($(this));
+    });
     /*alert_swipe.click(function(){
         document.cookie = "alert_swipe=disabled";
         alert_swipe.hide();
