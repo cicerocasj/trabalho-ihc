@@ -1,0 +1,333 @@
+.my-breakpoint p img{
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+}
+.my-breakpoint p{
+    text-align: justify;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    color: white;
+}
+.my-breakpoint .ui-block-a,
+.my-breakpoint .ui-block-b,
+.my-breakpoint .ui-block-c{
+    box-shadow: 1px 1px 5px #000000 !important;
+    -moz-box-shadow: 1px 1px 5px #000000 !important;
+    background: #ffffff;
+    padding: 7px;
+}
+#contact h3{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+#alert-swipe{
+    position: relative;
+
+}
+#alert-swipe *{
+    font-size: 12px !important;
+}
+/*estilo que não são mobile*/
+@media all and (min-width: 30.1em) {
+    .menu-mobile{
+        display: none !important;
+    }
+    .menu-tablet{
+        display: block
+    }
+
+    .my-breakpoint > .ui-block-a, .my-breakpoint > .ui-block-b{
+        height: 360px;
+    }
+
+    .my-breakpoint > #notice{
+        height: auto !important;
+    }
+
+    .my-breakpoint .ui-block-a{
+        margin: 1% 1% 1% 10% !important;
+        width: 39% !important;
+        box-shadow: 1px 1px 5px #000000 !important;
+        -moz-box-shadow: 1px 1px 5px #000000 !important;
+    }
+    .my-breakpoint .ui-block-b{
+        margin: 1% 10% 1% 1% !important;
+        width: 39% !important;
+        box-shadow: 1px 1px 5px #000000 !important;
+        -moz-box-shadow: 1px 1px 5px #000000 !important;
+    }
+    footer .map-site{
+        margin: 1% 1% 1% 10% !important;
+        width: 38% !important;
+    }
+    footer .social-midia{
+        margin: 1% 10% 1% 1% !important;
+        width: 38% !important;
+        position: relative;
+        bottom: 50px;
+        left: 5%;
+    }
+
+    #contact > div{
+        height: 300px !important;
+        display: inline-block;
+        background: #ffffff;
+        padding-bottom: 25px;
+    }
+
+    #contact img{
+        width: 70%;
+        border-radius: 50%;
+        padding: 0% !important;
+        margin-left: 14%;
+    }
+
+    #contact .cicero{
+        margin: 1% 1% 1% 10% !important;
+        width: 24% !important;
+        box-shadow: 1px 1px 5px #000000 !important;
+        -moz-box-shadow: 1px 1px 5px #000000 !important;
+    }
+    #contact .raphael{
+        margin: 1% 1% 1% 1% !important;
+        width: 24% !important;
+        box-shadow: 1px 1px 5px #000000 !important;
+        -moz-box-shadow: 1px 1px 5px #000000 !important;
+    }
+    #contact .rodrigo{
+        margin: 1% 10% 1% 1% !important;
+        width: 24% !important;
+        box-shadow: 1px 1px 5px #000000 !important;
+        -moz-box-shadow: 1px 1px 5px #000000 !important;
+    }
+    #notice{
+        width: 80% !important;
+    }
+    .ui-header{
+        height: 45px !important;
+    }
+    #alert-swipe{
+        left: 35%;
+    }
+}
+/*estilos para mobile*/
+@media all and (max-width: 30em) {
+    #contact h3{
+        text-align: center;
+        position: relative;
+        top: 20px;
+    }
+    .menu-mobile{display: block}
+    .menu-tablet{
+        display: none
+    }
+    .my-breakpoint .ui-block-a,
+    .my-breakpoint .ui-block-b{
+        width: 100%;
+        float:none;
+        margin-left: 0;
+        box-shadow: 1px 1px 5px #000000 !important;
+        -moz-box-shadow: 1px 1px 5px #000000 !important;
+    }
+    footer .map-site,
+    footer .social-midia{
+        width: 100%;
+        float:none;
+        margin-left: 0;
+    }
+    footer .social-midia{
+        position: relative;
+        left: 10%;
+    }
+    #output-comments ul{
+        padding-left: 5px;
+    }
+    #notice{
+        margin-right: 0;
+        width: 100% !important;
+    }
+    #output-comments li{
+        margin-bottom: 10px;
+    }
+    #contact > div{
+        height: 335px !important;
+    }
+
+    #contact img{
+        width: 70%;
+        border-radius: 50%;
+        padding: 0% !important;
+        position: relative;
+        top: 45px;
+        left: 45px;
+    }
+
+    .cicero, .raphael, .rodrigo{
+        margin: 1% 1% 1% 1% !important;
+        width: 95% !important;
+        box-shadow: 1px 1px 5px #000000 !important;
+        -moz-box-shadow: 1px 1px 5px #000000 !important;
+        background: #ffffff;
+    }
+    .ui-header{
+        height: 55px !important;
+    }
+    #alert-swipe{
+        left: 2%;
+        width: 90%;
+    }
+}
+@media (min-width: 481px) and (max-width: 1200px){
+    #home-page img{
+        display: none;
+    }
+}
+/*this block should go in the styles.css file*/
+.ui-panel-inner {
+    padding:0px; /*make the buttons flush edge to edge*/
+}
+.ui-controlgroup {
+    margin:0; /*make the buttons flush to the top*/
+}
+#header {
+    height:54px;
+}
+#bars-button {
+    margin:7px;
+}
+.copy{
+    text-align: center;
+}
+.copy h4, .copy p{
+    margin: 5px;
+}
+.map-site{
+    display: inline-block;
+}
+.map-site a{
+    color: #6874CA !important;
+    text-decoration: none;
+}
+.map-site a:hover{
+    color: #8d98ff !important;
+    text-decoration: underline;
+}
+.social-midia{
+    display: inline;
+}
+
+/*cores titulo com link*/
+.ui-content h4 a{
+    color: #6874CA !important;
+    text-decoration: none;
+}
+.ui-content h4 a:hover{
+    color: #8d98ff !important;
+    text-decoration: underline;
+}
+footer i{
+    margin-left: 10px;
+}
+
+
+
+
+#header{
+    overflow: visible; /* Let menu content overflow outside the header */
+}
+#header ul { /* Menu Name */
+    margin-top: 1em;
+}
+#header .ui-btn-corner-all {
+    /* border-radius: 0; /* Make the menu button squarish */
+}
+#header ul ul { /* Menu Item List */
+    position: absolute; /* Position absolutely */
+    display: none; /* Hide */
+    z-index:500; /* Ensure visibility over other elements on page */
+    margin-top: 0px; /* Bring menu closer to button; not needed on mobile */
+}
+#header ul ul li {
+    width: 150px; /* Fixed width menu items*/
+    display: block; /* JQM makes a inline-blocks... reset it to block */
+}
+#header ul ul li a {
+    white-space: normal; /* Stop long menu names from truncating */
+}
+#header ul:hover ul {
+    /* display: block; /* Display menu on hover over parent */
+}
+#menu-left {
+    float: left;
+    margin-left:0.5em;
+}
+#menu-right {
+    float: right;
+    margin-right:0.5em;
+}
+#menu-left ul {
+    margin-left:0.5em;
+}
+#menu-right ul {
+    margin-right: 0.5em;
+    right: 0em;
+}
+#home .ui-header {
+    height: 75px;
+}
+#home .ui-header h1 {
+    font-size: 16pt;
+    margin-bottom:0px;
+}
+#txtSpan {
+    position: relative;
+    display: inline-block;
+    top: -5px; /* Doesnt seem possible to vertically center otherwise */
+}
+#home .ui-header h2 {
+    font-size: 14pt;
+    margin-top: 0px;
+}
+.menu-tablet, .menu-mobile{
+    margin-top: 10px;
+}
+.menu-tablet{
+    margin-left: 15px;
+}
+.menu-tablet a{
+    text-decoration: none;
+    margin: 5px 20px;
+    border-radius: 5px;
+    padding: 3px 13px;
+}
+.menu-tablet a:hover{
+    font-size: 17px;
+    background: #2f2f2f;
+    box-shadow: 0 0 10px #8d98ff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.76);
+}
+.closed{
+    display: none !important;
+}
+#output-comments ul{
+    list-style: none;
+}
+#output-comments li{
+    min-width: 300px;
+    margin-bottom: 10px;
+}
+#single-notice > div{
+    margin-bottom: 20px;
+}
+#single-notice > div:nth-child(2){
+    height: 280px;
+}
+textarea{
+    resize: none !important;
+    max-height: 70px;
+}

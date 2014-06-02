@@ -1,0 +1,13 @@
+{
+	"name": "FatecIHC",
+	"description": "Este app demonstra os indices de mortalidade no trânsito.",
+	"launch_path": "/index.html",
+	"developer": {
+		"name": "Cicero Alves, Raphael Willian, Rodrigo Monteiro",
+		"url": "http://mortalidadenotransito.esy.es"
+	},
+	"icons": {
+		"128": "/images/icon.png"
+	},
+	"default_locale": "en"
+}
