@@ -66,4 +66,18 @@ $(document).ready(function(){
         document.getElementById('result_message').setAttribute('class','closed');
     }, 2000);
 
+    if (typeof String.prototype.startsWith != 'function') {
+        // see below for better implementation!
+        String.prototype.startsWith = function (str){
+            return this.indexOf(str) == 0;
+        };
+    }
+    var alert_swipe = $("#alert-swipe");
+    alert_swipe.click(function(){
+        document.cookie = "alert_swipe=disabled";
+        alert_swipe.hide();
+    });
+    if(document.cookie.startsWith("alert_swipe=disabled")){
+        alert_swipe.hide();
+    }
 });

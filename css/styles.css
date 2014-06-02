@@ -25,6 +25,13 @@ footer ul li{
     position: relative;
     top: 10px;
 }
+#alert-swipe{
+    position: relative;
+
+}
+#alert-swipe *{
+    font-size: 12px !important;
+}
 /*estilo que não são mobile*/
 @media all and (min-width: 30.1em) {
     .menu-mobile{
@@ -104,6 +111,9 @@ footer ul li{
     .ui-header{
         height: 45px !important;
     }
+    #alert-swipe{
+        left: 35%;
+    }
 }
 /*estilos para mobile*/
 @media all and (max-width: 30em) {
@@ -166,6 +176,10 @@ footer ul li{
     }
     .ui-header{
         height: 55px !important;
+    }
+    #alert-swipe{
+        left: 2%;
+        width: 90%;
     }
 }
 @media (min-width: 481px) and (max-width: 1200px){
@@ -312,4 +326,8 @@ footer i{
 }
 #single-notice > div:nth-child(2){
     height: 280px;
+}
+textarea{
+    resize: none !important;
+    max-height: 70px;
 }

@@ -42,3 +42,6 @@
         </div>
     </div>
     <div id="index" data-role="content">
+        <a id="alert-swipe" data-role="button" data-inline="true" data-theme="b">
+            Puxe para direita ou esquerda para ver os menus
+        </a>
