@@ -168,6 +168,11 @@ footer ul li{
         height: 55px !important;
     }
 }
+@media (min-width: 481px) and (max-width: 1200px){
+    #home-page img{
+        display: none;
+    }
+}
 /*this block should go in the styles.css file*/
 .ui-panel-inner {
     padding:0px; /*make the buttons flush edge to edge*/
